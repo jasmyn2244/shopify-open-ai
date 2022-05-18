@@ -1,10 +1,12 @@
 import React from "react";
 import '../Styles/Header.scss'
+import icon from '../Assets/artificial-intelligence.png'
 
 const Header = () => {
   return (
     <>
       <div className='header'>
+        <img src={icon} alt='robot-icon' className='icon' />
         <h1 className='heading'>AI Assitant</h1>
       </div>
       <div className='welcome-message'>
