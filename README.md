@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# AI Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents   
 
-## Available Scripts
+- [Abstract](#abstract)
+- [Project Goals](#project-goals)
+- [Project Specs](#project-specs)
+- [Install and Setup](#install-and-setup)
+- [api](#api)
+- [Tech Stack](#tech-stack)
+- [Contributors](#contributors)
 
-In the project directory, you can run:
+## Abstract
 
-### `npm start`
+AI Assitant allows users to interact with artificial intelligence. When the user makes requests using standard human language, the api will process the request/promp and return an answer similar to what we would expect from a human (and often better!).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Goals
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Build a beautiful and simple application that is well tested, accessible, and easy to use.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Homepage:**
 
-### `npm run build`
+<img width="1440" alt="Screen Shot of home screen" src="https://user-images.githubusercontent.com/78129211/169104610-14a685f9-d770-4926-8485-5d4f38b60f2b.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Type in Prompt and Get a Response:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Users can make any request and recieve a response from the AI API
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Accessiblity:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This app has a 100% lighthouse score.
+<img width="1440" alt="Screen Shot of lighthouse score" src="https://user-images.githubusercontent.com/78129211/169106598-1a6372aa-6f2d-4798-84b1-30c3bd8edefb.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Error Handling:**
 
-## Learn More
+If there is an issue with the client request or the server, the user will be directed to an error page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1440" alt="Screen Shot of error page" src="https://user-images.githubusercontent.com/78129211/169108022-acbb25a0-0a61-486e-8b4b-3841e101600d.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Install and Setup
 
-### Analyzing the Bundle Size
+To run this app locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. fork this repository
+2. run ```git clone  git@github.com:jasmyn2244/shopify-open-ai.git``` in your command line
+3. Run ```cd shopify-open-ai``` to navigate into the repository
+4. Run ```npm install```
+5. Run ```npm start```
+6. Visit ```http://localhost:3000/``` in your browser to view NY Times Top Stories app!
 
-### Making a Progressive Web App
+## api
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+For this project, I access data from the OpenAI API.
 
-### Advanced Configuration
+[OpenAI API](https://openai.com/api/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Tech Stack
 
-### Deployment
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-### `npm run build` fails to minify
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Contributors
+
+Jasmyn Hicks (she/her)
+[GitHub](https://github.com/jasmyn2244)  
+[LinkedIn](https://www.linkedin.com/in/jasmyn-hicks/)
