@@ -1,7 +1,6 @@
 //import { Configuration, OpenAIApi } from "openai";
 
 const API_KEY = process.env.REACT_APP_API_KEY
-console.log('api key', API_KEY)
 
 export const getResponse = (prompt) => {
   console.log('prompt in api call, ', prompt)
@@ -21,7 +20,7 @@ export const getResponse = (prompt) => {
     }),
   })
     .then(response => response.json())
-    .then(data => console.log('response data, ', data))
+    .then(data => console.log('response data, ', data.choices[0].text))
 }
 
 // const data = {

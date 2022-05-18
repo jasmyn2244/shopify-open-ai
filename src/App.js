@@ -8,14 +8,10 @@ function App() {
   const [userPrompt, setUserPrompt] = useState('')
   const [response, setResponse] = useState('')
 
-  // useEffect(() => {
-  //   getResponse(userPrompt)
-  //     .then(data => setResponse(data))
-  // }, userPrompt)
 
   const storeUserPrompt = (prompt) => {
     setUserPrompt(prompt.event)
-    getResponse(userPrompt)
+    getResponse(prompt.event)
       .then(data => setResponse(data))
   }
 
