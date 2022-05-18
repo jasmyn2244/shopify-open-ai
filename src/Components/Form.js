@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../Styles/Form.scss'
 
 const Form = ({ storeUserPrompt }) => {
   const [userPrompt, setUserPromt] = useState('')
@@ -16,10 +17,11 @@ const Form = ({ storeUserPrompt }) => {
 
   return (
     <>
-      {/* {console.log('userPrompt', userPrompt)} */}
-      <form>
-        <input type='text' id='userPrompt' name='user_prompt' placeholder='type any request' onChange={event => handleChange(event.target.value)}></input>
-        <button type='submit' onClick={submitPrompt}>Submit</button>
+      <form className='form'>
+        <input type='text' id='userPrompt' className='input' placeholder='Type a request' onChange={event => handleChange(event.target.value)}></input>
+        <div className='button-border'>
+          <button className='submit-button' type='submit' onClick={submitPrompt}>Submit</button>
+        </div>
       </form >
     </>
 
