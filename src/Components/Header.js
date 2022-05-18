@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styles/Header.scss'
-import icon from '../Assets/artificial-intelligence.png'
+import icon from '../Assets/roboticon.png'
 
 const Header = () => {
   return (
