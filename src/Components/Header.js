@@ -14,7 +14,7 @@ const Header = () => {
         <ul>
           <li>How can I be the best intern?</li>
           <li>How do I get Shopify to hire me?</li>
-          <li>How do I fix bugs in my code?</li>
+          <li>Please write me a poem about summertime</li>
         </ul>
       </div>
     </>
