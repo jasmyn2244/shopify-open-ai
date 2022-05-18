@@ -1,5 +1,7 @@
 # AI Assistant
 
+[Deploy Link](https://shopify-open-ai.herokuapp.com/)
+
 ## Table of Contents   
 
 - [Abstract](#abstract)
