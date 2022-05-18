@@ -24,7 +24,6 @@ const Form = ({ storeUserPrompt }) => {
         </div>
       </form >
     </>
-
   )
 }
 

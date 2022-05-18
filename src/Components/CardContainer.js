@@ -25,7 +25,6 @@ const CardContainer = ({ data }) => {
       {cards}
     </div>
   )
-
 }
 
 
