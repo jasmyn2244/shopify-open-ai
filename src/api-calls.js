@@ -1,4 +1,4 @@
-//import { Configuration, OpenAIApi } from "openai";
+import checkResponseStatus from './utils'
 
 const API_KEY = process.env.REACT_APP_API_KEY
 
@@ -19,24 +19,5 @@ export const getResponse = (prompt) => {
       presence_penalty: 0.0,
     }),
   })
-    .then(response => response.json())
-  // .then(data => console.log('response data, ', data.choices[0].text))
+    .then(response => checkResponseStatus(response))
 }
-
-// const data = {
-//   prompt: "Write a poem about a dog wearing skis",
-//   temperature: 0.5,
-//   max_tokens: 64,
-//   top_p: 1.0,
-//   frequency_penalty: 0.0,
-//   presence_penalty: 0.0,
-// };
-
-// fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {
-//   method: "POST",
-//   headers: {
-//     "Content-Type": "application/json",
-//     Authorization: `Bearer ${process.env.OPENAI_SECRET}`,
-//   },
-//   body: JSON.stringify(data),
-// });
