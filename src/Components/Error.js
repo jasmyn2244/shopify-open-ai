@@ -7,7 +7,6 @@ const Error = () => {
     <div className='error-container'>
       <img src={icon} alt='robot-icon' className='error-robot' />
       <p className='error-message'>Oops! Looks like something went wrong. Please refresh the page and try again.</p>
-      )
     </div>
   )
 }
