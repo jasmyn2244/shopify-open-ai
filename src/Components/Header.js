@@ -7,10 +7,10 @@ const Header = () => {
     <>
       <div className='header'>
         <img src={icon} alt='robot-icon' className='icon' />
-        <h1 className='heading'>AI Assitant</h1>
+        <h1 className='heading'>AI Assistant</h1>
       </div>
       <div className='welcome-message'>
-        <p>Hello! I'm your AI assistant. You can ask me anything and I'll do my best to help. The more specific and descriptive you are, the better I can serve you. Here are some examples of things you can request:</p>
+        <p data-cy='welcome-message'>Hello! I'm your AI assistant. You can ask me anything and I'll do my best to help. The more specific and descriptive you are, the better I can serve you. Here are some examples of things you can request:</p>
         <ul>
           <li>How can I be the best intern?</li>
           <li>How do I get Shopify to hire me?</li>
