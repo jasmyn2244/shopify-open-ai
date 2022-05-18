@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(217, 217, 217);
+  height: 15vh;
+}
+
+.heading {
+  font-family: 'Koulen', cursive;
+  font-size: 8vh;
+}
+
+.icon {
+  height: 6vh;
+  margin-left: 10%;
+}
+
+.welcome-message {
+  margin: 3% 10% 3% 10%;
+  border: 2px solid rgb(126, 126, 126);
+  border-radius: 8px;
+  padding: 3%;
+
+
+}
