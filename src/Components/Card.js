@@ -5,7 +5,7 @@ const Card = ({ prompt, response }) => {
   return (
     <div className='card'>
       {console.log('prompt and response in Card', prompt, response)}
-      <p>Promt: {prompt}</p>
+      <p>Prompt: {prompt}</p>
       <p>Response: {response}</p>
     </div>
   )

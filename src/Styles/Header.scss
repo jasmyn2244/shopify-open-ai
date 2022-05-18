@@ -1,8 +1,11 @@
 .header {
   display: flex;
   align-items: center;
-  height: 15vh;
+  height: 22vh;
   background-color: rgb(38, 38, 38);
+  border-radius: 10% 90% 80% 20% / 30% 46% 54% 70%;
+  margin: 3% 10% 3% 10%;
+  padding-left: 3%;
 }
 
 .heading {
@@ -17,8 +20,8 @@
 }
 
 .icon {
-  height: 6vh;
-  margin-left: 10%;
+  height: 7vh;
+  //margin-left: 10%;
 }
 
 .welcome-message {
