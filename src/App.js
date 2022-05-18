@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import Form from './Components/Form'
 
 function App() {
-  const [userPromt, setUserPrompt] = useState('')
+  const [userPrompt, setUserPrompt] = useState('')
   const [aiResponse, setAiResponse] = useState('')
 
   // useEffect(() => {
@@ -12,10 +12,11 @@ function App() {
   // }, userPrompt)
 
   const storeUserPrompt = (prompt) => {
-    setUserPrompt(prompt)
+    setUserPrompt(prompt.event)
   }
   return (
     <>
+      {console.log('user prompt in app', userPrompt)}
       <h1>AI Assitant</h1>
       <p>Welcome Message</p>
       <Form storeUserPrompt={storeUserPrompt} />

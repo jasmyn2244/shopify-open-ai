@@ -15,10 +15,13 @@ const Form = ({ storeUserPrompt }) => {
   }
 
   return (
-    <form>
-      <input type='text' id='userPrompt' name='user_prompt' placeholder='type any request' onChange={event => handleChange(event)}></input>
-      <button type='submit' onClick={submitPrompt}>Submit</button>
-    </form >
+    <>
+      {console.log('userPrompt', userPrompt)}
+      <form>
+        <input type='text' id='userPrompt' name='user_prompt' placeholder='type any request' onChange={event => handleChange(event.target.value)}></input>
+        <button type='submit' onClick={submitPrompt}>Submit</button>
+      </form >
+    </>
 
   )
 }
