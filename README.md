@@ -22,25 +22,25 @@ AI Assitant allows users to interact with artificial intelligence. When the user
 
 
 **Homepage:**
-
 <img width="1440" alt="Screen Shot of home screen" src="https://user-images.githubusercontent.com/78129211/169104610-14a685f9-d770-4926-8485-5d4f38b60f2b.png">
 
 
 **Type in Prompt and Get a Response:**
-
 Users can make any request and recieve a response from the AI API
 
 
 **Accessiblity:**
-
 This app has a 100% lighthouse score.
 <img width="1440" alt="Screen Shot of lighthouse score" src="https://user-images.githubusercontent.com/78129211/169106598-1a6372aa-6f2d-4798-84b1-30c3bd8edefb.png">
 
 
+**Responsive Design:**
+The AI Assistant App is responsive to screen size
+<img width="1296" alt="Screen Shot 2022-05-18 at 12 09 10 PM" src="https://user-images.githubusercontent.com/78129211/169114490-a9de9bbe-b7a6-4a66-8b79-f1ab8e0582ec.png">
+
+
 **Error Handling:**
-
 If there is an issue with the client request or the server, the user will be directed to an error page.
-
 <img width="1440" alt="Screen Shot of error page" src="https://user-images.githubusercontent.com/78129211/169108022-acbb25a0-0a61-486e-8b4b-3841e101600d.png">
 
 
