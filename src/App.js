@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
 import Form from './Components/Form'
@@ -14,13 +14,15 @@ function App() {
   const storeUserPrompt = (prompt) => {
     setUserPrompt(prompt.event)
     getResponse(prompt.event)
-      .then(data => setResponse(data))
-      .then(setPromptsAndResponses(...promptsAndResponses, { prompt: userPrompt, response: response }))
+      .then(data => {
+        setResponse(data.choices[0].text)
+        setPromptsAndResponses(promptsAndResponses.concat({ prompt: prompt.event, response: data.choices[0].text }))
+      })
   }
 
   return (
     <>
-      {console.log('user prompt in app', userPrompt)}
+      {console.log('prompts and responses array in app', promptsAndResponses)}
       <h1>AI Assitant</h1>
       <p>Welcome Message</p>
       <Form storeUserPrompt={storeUserPrompt} />

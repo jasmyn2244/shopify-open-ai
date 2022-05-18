@@ -20,7 +20,7 @@ export const getResponse = (prompt) => {
     }),
   })
     .then(response => response.json())
-    .then(data => console.log('response data, ', data.choices[0].text))
+  // .then(data => console.log('response data, ', data.choices[0].text))
 }
 
 // const data = {
