@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import { Route } from 'react-router-dom';
+import Form from './Components/Form'
+import { getResponse } from './api-calls';
 
 function App() {
+  const [userPrompt, setUserPrompt] = useState('')
+  const [response, setResponse] = useState('')
+
+
+  const storeUserPrompt = (prompt) => {
+    setUserPrompt(prompt.event)
+    getResponse(prompt.event)
+      .then(data => setResponse(data))
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {console.log('user prompt in app', userPrompt)}
+      <h1>AI Assitant</h1>
+      <p>Welcome Message</p>
+      <Form storeUserPrompt={storeUserPrompt} />
+    </>
   );
 }
 
