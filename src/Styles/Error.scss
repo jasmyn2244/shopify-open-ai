@@ -1,0 +1,18 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.error-message {
+  color: whitesmoke;
+  font-size: 3vh;
+}
+
+.error-robot {
+  height: 20vh;
+}
