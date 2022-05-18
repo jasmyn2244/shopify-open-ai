@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './App.scss';
+import '../Styles/App.scss';
 import { Route } from 'react-router-dom';
-import Form from './Components/Form'
-import { getResponse } from './api-calls';
-import CardContainer from './Components/CardContainer';
-import Error from './Components/Error'
+import Form from './Form'
+import { getResponse } from '../api-calls';
+import CardContainer from './CardContainer';
+import Error from './Error'
 
 function App() {
   const [promptsAndResponses, setPromptsAndResponses] = useState([])
