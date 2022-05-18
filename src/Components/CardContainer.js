@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import '../Styles/CardContainer.scss'
 
 const CardContainer = ({ data }) => {
   let uniqueKey = 0
@@ -20,7 +21,7 @@ const CardContainer = ({ data }) => {
   }
 
   return (
-    <div>
+    <div className='card-container'>
       {cards}
     </div>
   )

@@ -1,11 +1,12 @@
 import React from 'react'
+import '../Styles/Card.scss'
 
 const Card = ({ prompt, response }) => {
   return (
-    <div>
+    <div className='card'>
       {console.log('prompt and response in Card', prompt, response)}
-      <p>{prompt}</p>
-      <p>{response}</p>
+      <p>Promt: {prompt}</p>
+      <p>Response: {response}</p>
     </div>
   )
 }

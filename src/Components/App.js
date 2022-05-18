@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import './App.css';
+import '../Styles/App.scss';
 import { Route } from 'react-router-dom';
-import Form from './Components/Form'
-import { getResponse } from './api-calls';
-import CardContainer from './Components/CardContainer';
-import Error from './Components/Error'
+import Form from './Form'
+import { getResponse } from '../api-calls';
+import CardContainer from './CardContainer';
+import Error from './Error'
+import Header from './Header'
+
 
 function App() {
   const [promptsAndResponses, setPromptsAndResponses] = useState([])
@@ -28,13 +30,7 @@ function App() {
   } else {
     return (
       <>
-        <h1>AI Assitant</h1>
-        <p>Hello! I'm your AI assistant. You can ask me anything and I'll do my best to help. The more specific and descriptive you are, the better I can serve you. Here are some examples of things you can request:</p>
-        <ul>
-          <li>How can I be the best intern?</li>
-          <li>How do I get Shopify to hire me?</li>
-          <li>How do I fix bugs in my code?</li>
-        </ul>
+        <Header />
         <Form storeUserPrompt={storeUserPrompt} />
         <CardContainer data={promptsAndResponses} />
       </>
