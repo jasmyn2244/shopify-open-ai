@@ -1,7 +1,6 @@
 # AI Assistant
 
 [Deploy Link](https://shopify-open-ai.herokuapp.com/)
-Disclaimer: it seems that openAI is not compatible with deployment. On my local device, the app works without bugs, but on Heroku, you can't submit a promt without an error.
 
 ## Table of Contents   
 
