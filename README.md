@@ -8,7 +8,7 @@
 - [Project Goals](#project-goals)
 - [Project Specs](#project-specs)
 - [Install and Setup](#install-and-setup)
-- [api](#api)
+- [API](#api)
 - [Tech Stack](#tech-stack)
 - [Contributors](#contributors)
 
@@ -81,7 +81,7 @@ To run this app locally:
 5. Run ```npm start```
 6. Visit ```http://localhost:3000/``` in your browser to view NY Times Top Stories app!
 
-## api
+## API
 
 For this project, I access data from the OpenAI API.
 
