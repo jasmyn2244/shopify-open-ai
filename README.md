@@ -99,5 +99,6 @@ For this project, I access data from the OpenAI API.
 # Contributors
 
 Jasmyn Hicks (she/her)
+
 [GitHub](https://github.com/jasmyn2244)  
 [LinkedIn](https://www.linkedin.com/in/jasmyn-hicks/)
