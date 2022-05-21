@@ -3,8 +3,8 @@
 
 ## Table of Contents   
 
-- [Abstract](#abstract)
 - [Deploy Link](#deploy)
+- [Abstract](#abstract)
 - [Project Goals](#project-goals)
 - [Project Specs](#project-specs)
 - [Install and Setup](#install-and-setup)
