@@ -96,7 +96,7 @@ For this project, I access data from the OpenAI API.
 ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 
-# Contributors
+## Contributors
 
 Jasmyn Hicks (she/her)
 
