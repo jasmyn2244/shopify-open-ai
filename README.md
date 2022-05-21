@@ -27,7 +27,7 @@ AI Assitant allows users to interact with artificial intelligence. When the user
 
 **Type in Prompt and Get a Response:**
 Users can make any request and recieve a response from the AI API
-
+![gif](https://media.giphy.com/media/9YfV1v5VuFwIqPdeqy/giphy.gif)
 
 **Accessiblity:**
 This app has a 100% lighthouse score.
